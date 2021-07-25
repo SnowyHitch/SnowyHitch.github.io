@@ -10,18 +10,29 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    background-color: white;
 }
 
 .navbar {
     padding: 10px;
     padding-right: 20px;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     border-bottom: 1px solid black;
+}
+
+.experience {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .text-right {
     text-align: right;
+}
+
+.text-mid {
+    text-align: center;
 }
 
 .m1 {
@@ -29,6 +40,6 @@ body {
     margin-top: 50px;
 }
 
-.list1 {
-    color: grey;
+.bio {
+    font-size: 20px;
 }
