@@ -43,3 +43,13 @@ body {
 .bio {
     font-size: 20px;
 }
+
+.experienceGrid {
+    display: grid;
+    grid-template-columns: auto 300px;
+    max-width: 1000px;
+}
+
+.m1 {
+    max-width: 1800px;
+}
