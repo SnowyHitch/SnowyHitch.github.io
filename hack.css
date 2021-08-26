@@ -1,0 +1,31 @@
+
+.groupPhoto {
+    width: 700px;
+}
+
+#header {
+    color: saddlebrown;
+    text-align: center;
+}
+
+.pics {
+    width: 300px;
+}
+
+#aboutUs {
+    color: rgb(185, 120, 54);
+}
+
+.center {
+    text-align: center;
+}
+
+.grid-3 {
+    float: left;
+  width: 33.33%;
+}
+
+.video {
+    width: 320px;
+    height: 240px;
+}
